@@ -4,5 +4,14 @@ static s3 website with pulumi and cloudflare
 ## bootstrap
 
 ```
-aws s3api create-bucket --bucket knip-builds-pulumi-backend
+aws s3 mb s3://kb-static-website-pulumi-backend
+```
+
+```
+pulumi login s3://knip-builds-pulumi-backend
+```
+
+
+```
+pulumi new typescript --name kb-static-website
 ```
