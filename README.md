@@ -15,3 +15,12 @@ pulumi login s3://knip-builds-pulumi-backend
 ```
 pulumi new typescript --name kb-static-website
 ```
+
+ToDo:
+- SSL Host Certs
+- Proper DNS
+- Cloudflare CDN
+- Actual Page Content
+
+Refs:
+- https://www.pulumi.com/registry/packages/aws/how-to-guides/s3-website/
