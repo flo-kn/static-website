@@ -15,3 +15,6 @@ pulumi login s3://knip-builds-pulumi-backend
 ```
 pulumi new typescript --name kb-static-website
 ```
+
+Refs:
+- https://www.pulumi.com/registry/packages/aws/how-to-guides/s3-website/
